@@ -1,0 +1,8 @@
+2025-11-07 15:31:50 TRACE LoggerTest - Trace Message — Verbose details for debugging
+2025-11-07 15:31:50 DEBUG LoggerTest - Entering in method main
+2025-11-07 15:31:50 INFO  LoggerTest - Info Message — Normal flow information
+2025-11-07 15:31:50 WARN  LoggerTest - Warning Message — Something might be off
+2025-11-07 15:31:50 ERROR LoggerTest - Error Message — Something failed
+2025-11-07 15:31:50 FATAL LoggerTest - Fatal Message — Critical system failure
+2025-11-07 15:31:50 ERROR LoggerTest - Error in LoggingTest: null
+2025-11-07 15:31:50 DEBUG LoggerTest - Leaving from method main
