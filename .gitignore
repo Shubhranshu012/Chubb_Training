@@ -3,6 +3,7 @@
 
 # Compiled class files
 *.class
+/bin/
 
 # Eclipse project files
 .classpath
@@ -11,3 +12,4 @@
 
 # Build tools
 target/
+/.metadata/
