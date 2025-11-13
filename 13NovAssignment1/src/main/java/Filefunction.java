@@ -13,7 +13,7 @@ public class Filefunction {
 
             while ((line = br.readLine()) != null) {
                
-                String[] words = line.toLowerCase().split(" ");
+                String[] words = line.toLowerCase().split("[^a-z]+");
 
                 for (String w : words) {
                     if (w.equals("india")) {
