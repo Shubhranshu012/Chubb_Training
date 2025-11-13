@@ -1,1 +1,13 @@
-/.metadata/
+# Eclipse build folders
+**/bin/
+
+# Compiled class files
+*.class
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Build tools
+target/
