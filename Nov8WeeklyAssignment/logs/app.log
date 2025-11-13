@@ -1,0 +1,19 @@
+2025-11-13 06:46:52 INFO  Main - Application started
+2025-11-13 06:46:52 ERROR Main - This is a simulated ERROR for testing
+2025-11-13 06:46:52 ERROR Main - Another error occurred
+2025-11-13 06:46:53 INFO  Main - Application finished successfully
+2025-11-13 06:47:09 INFO  Main - Application started
+2025-11-13 06:47:09 ERROR Main - This is a simulated ERROR for testing
+2025-11-13 06:47:09 ERROR Main - Another error occurred
+2025-11-13 06:48:59 INFO  Main - Application started
+2025-11-13 06:48:59 ERROR Main - This is a simulated ERROR for testing
+2025-11-13 06:48:59 ERROR Main - Another error occurred
+2025-11-13 06:49:01 INFO  Main - Application finished successfully
+2025-11-13 14:44:39 INFO  Main - Application started
+2025-11-13 14:44:39 ERROR Main - This is a simulated ERROR for testing
+2025-11-13 14:44:39 ERROR Main - Another error occurred
+2025-11-13 14:44:40 INFO  Main - Application finished successfully
+2025-11-13 14:46:01 INFO  Main - Application started
+2025-11-13 14:46:01 ERROR Main - This is a simulated ERROR for testing
+2025-11-13 14:46:01 ERROR Main - Another error occurred
+2025-11-13 14:46:03 INFO  Main - Application finished successfully

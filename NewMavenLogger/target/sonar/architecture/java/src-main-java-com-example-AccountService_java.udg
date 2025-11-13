@@ -1,0 +1,124 @@
+
+1.0Shubhranshu012_LoggerJavaFrontend"1762600173822*java2.Bë
+2
+-src/main/java/com/example/AccountService.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+Shubhranshu012_Logger6
+
+package8
+&
+!Shubhranshu012_Logger:com.example9
+ 
+com.example.AccountService11
+
+	interface12
+
+access13
+
+public14
+
+simple-name15
+
+AccountService16
+<
+6com.example.AccountService#exists(Ljava/lang/String;)Z18
+
+method19
+
+exists20
+@
+:com.example.AccountService#getBalance(Ljava/lang/String;)D22
+
+
+getBalance23
+<
+6com.example.AccountService#debit(Ljava/lang/String;D)Z25
+
+debit26
+=
+7com.example.AccountService#credit(Ljava/lang/String;D)Z28
+
+credit29J#
+!
+1
+12
+
+3
+4
+
+5
+6Z
+
+7
+7982
+
+
+5
+6jÐ
+B
+27<
+272819 *
+1 (210:7B
+
+
+13
+14
+
+
+15
+29
+B
+17<
+171819 *
+1 (210:7B
+
+
+13
+14
+
+
+15
+20
+B
+24<
+242519 *
+1 (210:7B
+
+
+13
+14
+
+
+15
+26
+>
+108
+101112 *
+1 ( :7B
+
+
+13
+14
+
+
+15
+16
+B
+21<
+212219 *
+1 (210:7B
+
+
+13
+14
+
+
+15
+23

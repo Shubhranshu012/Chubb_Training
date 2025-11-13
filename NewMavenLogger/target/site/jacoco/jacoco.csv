@@ -1,0 +1,7 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+NewMavenLogger,default,LoggerTest,47,0,0,0,15,0,3,0,3,0
+NewMavenLogger,com.example,FundTransferService,0,56,1,11,0,17,1,7,0,2
+NewMavenLogger,com.example,MathOperation,0,7,0,0,0,2,0,2,0,2
+NewMavenLogger,com.example,Math2,0,10,0,0,0,2,0,2,0,2
+NewMavenLogger,com.example,MathOperations,0,7,0,0,0,2,0,2,0,2
+NewMavenLogger,com.example,BinarySearch,6,39,2,4,2,10,2,3,0,2

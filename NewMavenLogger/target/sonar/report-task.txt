@@ -1,0 +1,7 @@
+organization=shubhranshu012
+projectKey=Shubhranshu012_Logger
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.76401
+dashboardUrl=https://sonarcloud.io/dashboard?id=Shubhranshu012_Logger
+ceTaskId=AZpjKGadNCIO9IbNVsg0
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZpjKGadNCIO9IbNVsg0

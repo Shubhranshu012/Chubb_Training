@@ -1,1 +1,6 @@
+com\example\AccountService.class
+com\example\MathOperation.class
+com\example\MathOperations.class
 LoggerTest.class
+com\example\FundTransferService.class
+com\example\BinarySearch.class

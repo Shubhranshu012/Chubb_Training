@@ -1,0 +1,5 @@
+package Exception_pkg;
+
+public class OverloadException extends Exception {
+    public OverloadException(String message) { super(message); }
+}
