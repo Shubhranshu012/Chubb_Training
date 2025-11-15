@@ -1,4 +1,6 @@
 
+import java.util.stream.LongStream;
+
 import org.apache.log4j.Logger;
 
 public class MainRunner {
@@ -12,6 +14,6 @@ public class MainRunner {
         logger.warn("This is a WARN message");
         logger.error("This is an ERROR message");
         logger.fatal("This is a FATAL message");
-
+        System.out.println(LongStream.range(0,100000000).parallel().sum());
     }
 }
