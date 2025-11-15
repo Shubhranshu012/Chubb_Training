@@ -6,7 +6,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.repository.OrderRepository;
 import com.example.request.Order;
+import com.example.request.Order1;
 import com.example.service.OrderService;
 
 import jakarta.validation.Valid;
@@ -58,6 +60,16 @@ public class HelloController {
     	return order;
     }
     
+    
+    
+    @Autowired
+    OrderRepository orderRepository;
+    @PostMapping("/savetodb")
+    public Order1 insertOrder(@RequestBody Order1 order) {
+    	orderRepository.save(order);
+    	log.debug(order.toString());
+    	return order;
+    }
     
     
 }
