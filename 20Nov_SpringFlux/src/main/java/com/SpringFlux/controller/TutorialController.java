@@ -1,5 +1,7 @@
 package com.SpringFlux.controller;
 
+import java.util.Map;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -42,16 +44,20 @@ public class TutorialController {
     return tutorialService.findById(id);
   }
 
+  public TutorialController(TutorialService tutorialService) {
+      this.tutorialService = tutorialService;
+  }
+
   @PostMapping("/tutorials")
   @ResponseStatus(HttpStatus.CREATED)
-  public Mono<Tutorial> createTutorial(@RequestBody Tutorial tutorial) {
-    return tutorialService.save(new Tutorial(tutorial.getTitle(), tutorial.getDescription(), false));
+  public Mono<Object> createTutorial(@RequestBody Tutorial tutorial) {
+      return tutorialService.save(new Tutorial(tutorial.getTitle(), tutorial.getDescription(), false)).map(saved -> Map.of("id", saved.getId()));
   }
 
   @PutMapping("/tutorials/{id}")
   @ResponseStatus(HttpStatus.OK)
-  public Mono<Tutorial> updateTutorial(@PathVariable("id") int id, @RequestBody Tutorial tutorial) {
-    return tutorialService.update(id, tutorial);
+  public Mono<Map<String, Integer>> updateTutorial(@PathVariable("id") int id, @RequestBody Tutorial tutorial) {
+      return tutorialService.update(id, tutorial).thenReturn(Map.of("id", id));
   }
 
   @DeleteMapping("/tutorials/{id}")
