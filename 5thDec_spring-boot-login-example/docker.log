@@ -1,0 +1,202 @@
+Attaching to mysql-db, spring_boot
+mysql-db  | 2025-12-06 10:55:35+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.44-1.el9 started.
+mysql-db  | 2025-12-06 10:55:35+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+mysql-db  | 2025-12-06 10:55:35+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.44-1.el9 started.
+mysql-db  | '/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+spring_boot  | [[1;34mINFO[m] Scanning for projects...
+spring_boot  | [[1;34mINFO[m] 
+spring_boot  | [[1;34mINFO[m] [1m---------------< [0;36mcom.bezkoder:spring-boot-login-example[0;1m >---------------[m
+spring_boot  | [[1;34mINFO[m] [1mBuilding spring-boot-login-example 0.0.1-SNAPSHOT[m
+spring_boot  | [[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+spring_boot  | [[1;34mINFO[m] 
+spring_boot  | [[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:3.1.0:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mspring-boot-login-example[0;1m >>>[m
+spring_boot  | [[1;34mINFO[m] 
+spring_boot  | [[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36mspring-boot-login-example[0;1m ---[m
+spring_boot  | [[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+spring_boot  | [[1;34mINFO[m] Copying 0 resource from src/main/resources to target/classes
+spring_boot  | [[1;34mINFO[m] 
+spring_boot  | [[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36mspring-boot-login-example[0;1m ---[m
+spring_boot  | [[1;34mINFO[m] Nothing to compile - all classes are up to date
+spring_boot  | [[1;34mINFO[m] 
+spring_boot  | [[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36mspring-boot-login-example[0;1m ---[m
+spring_boot  | [[1;34mINFO[m] skip non existing resourceDirectory /5thDec_spring-bbot-login-example/src/test/resources
+spring_boot  | [[1;34mINFO[m] 
+spring_boot  | [[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mspring-boot-login-example[0;1m ---[m
+spring_boot  | [[1;34mINFO[m] Nothing to compile - all classes are up to date
+spring_boot  | [[1;34mINFO[m] 
+spring_boot  | [[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:3.1.0:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mspring-boot-login-example[0;1m <<<[m
+spring_boot  | [[1;34mINFO[m] 
+spring_boot  | [[1;34mINFO[m] 
+spring_boot  | [[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:3.1.0:run[m [1m(default-cli)[m @ [36mspring-boot-login-example[0;1m ---[m
+spring_boot  | [[1;34mINFO[m] Attaching agents: []
+spring_boot  | 
+spring_boot  |   .   ____          _            __ _ _
+spring_boot  |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+spring_boot  | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+spring_boot  |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+spring_boot  |   '  |____| .__|_| |_|_| |_\__, | / / / /
+spring_boot  |  =========|_|==============|___/=/_/_/_/
+spring_boot  | [32m :: Spring Boot :: [39m              [2m (v3.1.0)[0;39m
+spring_boot  | 
+spring_boot  | [2m2025-12-06T10:55:57.639Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36m.b.s.l.SpringBootLoginExampleApplication[0;39m [2m:[0;39m Starting SpringBootLoginExampleApplication using Java 17.0.2 with PID 61 (/5thDec_spring-bbot-login-example/target/classes started by root in /5thDec_spring-bbot-login-example)
+spring_boot  | [2m2025-12-06T10:55:57.646Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36m.b.s.l.SpringBootLoginExampleApplication[0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+spring_boot  | [2m2025-12-06T10:55:59.455Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+spring_boot  | [2m2025-12-06T10:55:59.642Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 166 ms. Found 2 JPA repository interfaces.
+spring_boot  | [2m2025-12-06T10:56:01.104Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+spring_boot  | [2m2025-12-06T10:56:01.133Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+spring_boot  | [2m2025-12-06T10:56:01.133Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.8]
+spring_boot  | [2m2025-12-06T10:56:01.373Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+spring_boot  | [2m2025-12-06T10:56:01.375Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 3631 ms
+spring_boot  | [2m2025-12-06T10:56:01.691Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+spring_boot  | [2m2025-12-06T10:56:01.886Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 6.2.2.Final
+spring_boot  | [2m2025-12-06T10:56:01.892Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.cfg.Environment           [0;39m [2m:[0;39m HHH000406: Using bytecode reflection optimizer
+spring_boot  | [2m2025-12-06T10:56:02.341Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.h.b.i.BytecodeProviderInitiator       [0;39m [2m:[0;39m HHH000021: Bytecode provider name : bytebuddy
+spring_boot  | [2m2025-12-06T10:56:02.785Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m [2m:[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+spring_boot  | [2m2025-12-06T10:56:02.829Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+spring_boot  | [2m2025-12-06T10:56:03.455Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a323a5b
+spring_boot  | [2m2025-12-06T10:56:03.460Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+spring_boot  | [2m2025-12-06T10:56:03.582Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.orm.dialect               [0;39m [2m:[0;39m HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
+spring_boot  | [2m2025-12-06T10:56:03.588Z[0;39m [33m WARN[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.orm.deprecation           [0;39m [2m:[0;39m HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+spring_boot  | [2m2025-12-06T10:56:04.258Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.h.b.i.BytecodeProviderInitiator       [0;39m [2m:[0;39m HHH000021: Bytecode provider name : bytebuddy
+spring_boot  | [2m2025-12-06T10:56:06.090Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+spring_boot  | [2m2025-12-06T10:56:06.304Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring_boot  | [2m2025-12-06T10:56:07.131Z[0;39m [31mERROR[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.web.embedded.tomcat.TomcatStarter [0;39m [2m:[0;39m Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'authenticationJwtTokenFilter': Unsatisfied dependency expressed through field 'jwtUtils': Error creating bean with name 'jwtUtils': Injection of autowired dependencies failed
+spring_boot  | [2m2025-12-06T10:56:07.215Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Stopping service [Tomcat]
+spring_boot  | [2m2025-12-06T10:56:07.224Z[0;39m [33m WARN[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.loader.WebappClassLoaderBase      [0;39m [2m:[0;39m The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+spring_boot  |  java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+spring_boot  |  java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+spring_boot  |  java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+spring_boot  |  java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+spring_boot  |  java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+spring_boot  |  java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+spring_boot  |  java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+spring_boot  |  java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+spring_boot  |  java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+spring_boot  | [2m2025-12-06T10:56:07.226Z[0;39m [33m WARN[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.loader.WebappClassLoaderBase      [0;39m [2m:[0;39m The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+spring_boot  |  java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+spring_boot  |  java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+spring_boot  |  java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+spring_boot  |  java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+spring_boot  |  java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+spring_boot  |  java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+spring_boot  |  java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+spring_boot  |  java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+spring_boot  | [2m2025-12-06T10:56:07.230Z[0;39m [33m WARN[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+spring_boot  | [2m2025-12-06T10:56:07.231Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+spring_boot  | [2m2025-12-06T10:56:07.238Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown initiated...
+spring_boot  | [2m2025-12-06T10:56:07.252Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown completed.
+spring_boot  | [2m2025-12-06T10:56:07.273Z[0;39m [32m INFO[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.b.a.l.ConditionEvaluationReportLogger[0;39m [2m:[0;39m 
+spring_boot  | 
+spring_boot  | Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+spring_boot  | [2m2025-12-06T10:56:07.331Z[0;39m [31mERROR[0;39m [35m61[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.boot.SpringApplication              [0;39m [2m:[0;39m Application run failed
+spring_boot  | 
+spring_boot  | org.springframework.context.ApplicationContextException: Unable to start web server
+spring_boot  | 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:164) ~[spring-boot-3.1.0.jar:3.1.0]
+spring_boot  | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:602) ~[spring-context-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.0.jar:3.1.0]
+spring_boot  | 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733) ~[spring-boot-3.1.0.jar:3.1.0]
+spring_boot  | 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435) ~[spring-boot-3.1.0.jar:3.1.0]
+spring_boot  | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-3.1.0.jar:3.1.0]
+spring_boot  | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305) ~[spring-boot-3.1.0.jar:3.1.0]
+spring_boot  | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294) ~[spring-boot-3.1.0.jar:3.1.0]
+spring_boot  | 	at com.bezkoder.spring.login.SpringBootLoginExampleApplication.main(SpringBootLoginExampleApplication.java:10) ~[classes/:na]
+spring_boot  | Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+spring_boot  | 	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142) ~[spring-boot-3.1.0.jar:3.1.0]
+spring_boot  | 	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-3.1.0.jar:3.1.0]
+spring_boot  | 	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:489) ~[spring-boot-3.1.0.jar:3.1.0]
+spring_boot  | 	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211) ~[spring-boot-3.1.0.jar:3.1.0]
+spring_boot  | 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:183) ~[spring-boot-3.1.0.jar:3.1.0]
+spring_boot  | 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161) ~[spring-boot-3.1.0.jar:3.1.0]
+spring_boot  | 	... 8 common frames omitted
+spring_boot  | Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authenticationJwtTokenFilter': Unsatisfied dependency expressed through field 'jwtUtils': Error creating bean with name 'jwtUtils': Injection of autowired dependencies failed
+spring_boot  | 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:482) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:210) ~[spring-boot-3.1.0.jar:3.1.0]
+spring_boot  | 	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:173) ~[spring-boot-3.1.0.jar:3.1.0]
+spring_boot  | 	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:168) ~[spring-boot-3.1.0.jar:3.1.0]
+spring_boot  | 	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:153) ~[spring-boot-3.1.0.jar:3.1.0]
+spring_boot  | 	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86) ~[spring-boot-3.1.0.jar:3.1.0]
+spring_boot  | 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:261) ~[spring-boot-3.1.0.jar:3.1.0]
+spring_boot  | 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:235) ~[spring-boot-3.1.0.jar:3.1.0]
+spring_boot  | 	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52) ~[spring-boot-3.1.0.jar:3.1.0]
+spring_boot  | 	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4882) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+spring_boot  | 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+spring_boot  | 	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+spring_boot  | 	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+spring_boot  | 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+spring_boot  | 	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+spring_boot  | 	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+spring_boot  | 	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+spring_boot  | 	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:846) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+spring_boot  | 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+spring_boot  | 	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+spring_boot  | 	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+spring_boot  | 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+spring_boot  | 	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+spring_boot  | 	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+spring_boot  | 	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+spring_boot  | 	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:241) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+spring_boot  | 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+spring_boot  | 	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+spring_boot  | 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+spring_boot  | 	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:913) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+spring_boot  | 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+spring_boot  | 	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:485) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+spring_boot  | 	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123) ~[spring-boot-3.1.0.jar:3.1.0]
+spring_boot  | 	... 13 common frames omitted
+spring_boot  | Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jwtUtils': Injection of autowired dependencies failed
+spring_boot  | 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:488) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	... 55 common frames omitted
+spring_boot  | Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'bezkoder.app.jwtSecret' in value "${bezkoder.app.jwtSecret}"
+spring_boot  | 	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180) ~[spring-core-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126) ~[spring-core-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239) ~[spring-core-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210) ~[spring-core-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:191) ~[spring-context-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:920) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1358) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:482) ~[spring-beans-6.0.9.jar:6.0.9]
+spring_boot  | 	... 66 common frames omitted
+spring_boot  | 
+spring_boot  | [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+spring_boot  | [[1;34mINFO[m] [1;31mBUILD FAILURE[m
+spring_boot  | [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+spring_boot  | [[1;34mINFO[m] Total time:  30.560 s
+spring_boot  | [[1;34mINFO[m] Finished at: 2025-12-06T10:56:07Z
+spring_boot  | [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+spring_boot  | [[1;31mERROR[m] Failed to execute goal [32morg.springframework.boot:spring-boot-maven-plugin:3.1.0:run[m [1m(default-cli)[m on project [36mspring-boot-login-example[m: [1;31mProcess terminated with exit code: 1[m -> [1m[Help 1][m
+spring_boot  | [[1;31mERROR[m] 
+spring_boot  | [[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+spring_boot  | [[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+spring_boot  | [[1;31mERROR[m] 
+spring_boot  | [[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+spring_boot  | [[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+spring_boot  | [0m[0m
+[Kspring_boot exited with code 1 (restarting)
+spring_boot  | [[1;34mINFO[m] Scanning for projects...
+[Kspring_boot exited with code 143
+[Kmysql-db exited with code 0
